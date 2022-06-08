@@ -11,3 +11,13 @@ Epithellial (d) Muscle, Inflammatory
 ![Results](images/results.png "results")
 
 
+Weights of FEEDNeT on Consep Dataset is [here](https://drive.google.com/file/d/1SqU1OBOA9pOHFVF0KraLfPaOVvsPCPjH/view?usp=sharing)
+
+To inference run the inference just run:
+Change the config settings according to inference and sutable device conditions.
+
+```
+python infer.py
+```
+
+
