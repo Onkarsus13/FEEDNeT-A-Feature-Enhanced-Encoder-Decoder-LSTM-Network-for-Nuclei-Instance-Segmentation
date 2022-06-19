@@ -11,7 +11,7 @@ from scipy.optimize import linear_sum_assignment
 
 
 
-def rgb_to_onehot(rgb_arr, color_dict = cfg.color_values):
+def rgb_to_onehot(rgb_arr, color_dict = cfg.Multiclass_color_values): #for binary segmentation change cfg.Multiclass_color_values to cfg.Binary_color_values
     '''this functiom will convert mask image to one hot encoded format'''
     num_classes = len(color_dict)
     shape = rgb_arr.shape[:2]+(num_classes,)

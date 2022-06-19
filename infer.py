@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 
 #this is the inference function for to test our model
-def inference(image_path, seg_type='binary'):
+def inference(image_path, seg_type=cfg.seg_type):
     if seg_type == 'binary':
         model = Exsumsion_net(pretrained_weights=True)
         image = cv2.imread(image_path)

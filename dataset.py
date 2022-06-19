@@ -16,7 +16,7 @@ labelsTr  = glob.glob(cfg.train_mask)
 labelsTs = glob.glob(cfg.test_masks)
 
 
-mages_train = make_list(imagesTr)
+images_train = make_list(imagesTr)
 masks_train = make_list(labelsTr)
 images_test = make_list(imagesTs)
 masks_test = make_list(labelsTs)
